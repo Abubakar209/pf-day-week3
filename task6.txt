@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+main(){
+
+int bag_size;
+int bag_cost;
+int area_sqfeet;
+cout<<"Enter Bag Size in Pounds";
+cin>>bag_size;
+cout<<"Enter Cost of bags";
+cin>>bag_cost;
+cout<<"Enter Area Covered in Ecah bag";
+cin>>area_sqfeet;
+int cost_pound=bag_size/bag_cost;
+cout<<cost_pound<<"cost of fertilizer per pound";
+
+
+
+
+
+}
